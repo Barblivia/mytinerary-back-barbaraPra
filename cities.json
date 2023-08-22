@@ -1,0 +1,92 @@
+[
+    {
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "image": "/img/city1_Rio.jpg",
+        "description": "Experience the lively culture and stunning beaches of Rio de Janeiro in Brazil."
+    },
+    {
+        "city": "Paris",
+        "country": "France",
+        "image": "/img/city2_Paris.jpg",
+        "description": "Explore the romantic streets of Paris and visit iconic landmarks like the Eiffel Tower."
+    },
+    {
+        "city": "Tokyo",
+        "country": "Japan",
+        "image": "/img/city3_Tokyo.jpg",
+        "description": "Immerse yourself in the futuristic cityscape of Tokyo and enjoy delicious Japanese cuisine."
+    },
+    {
+        "city": "Dublin",
+        "country": "Ireland",
+        "image": "/img/city4_Dublin.jpg",
+        "description": "Discover the rich history and vibrant pub culture of Dublin in Ireland."
+    },
+    {
+        "city": "Havana",
+        "country": "Cuba",
+        "image": "/img/city5_Havana.jpg",
+        "description": "Experience the colorful streets and lively music scene of Havana in Cuba."
+    },
+    {
+        "city": "Florence",
+        "country": "Italy",
+        "image": "/img/city6_Florence.jpg",
+        "description": "Immerse yourself in the art and history of Florence, a gem of a city in Italy."
+    },
+    {
+        "city": "Delhi",
+        "country": "India",
+        "image": "/img/city7_Delhi.jpg",
+        "description": "Explore the bustling streets and historical landmarks of Delhi in India."
+    },
+    {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "image": "/img/city8_Copenhagen.jpg",
+        "description": "Experience the modern design and cozy atmosphere of Copenhagen in Denmark."
+    },
+    {
+        "city": "New York",
+        "country": "USA",
+        "image": "/img/city9_NewYork.jpg",
+        "description": "Discover the iconic skyline and diverse culture of New York City in the USA."
+    },
+    {
+        "city": "Berlin",
+        "country": "Germany",
+        "image": "/img/city10_Berlin.jpg",
+        "description": "Immerse yourself in the history and vibrant arts scene of Berlin in Germany."
+    },
+    {
+        "city": "Beijing",
+        "country": "China",
+        "image": "/img/city11_Beijing.jpg",
+        "description": "Explore the ancient wonders and modern architecture of Beijing in China."
+    },
+    {
+        "city": "Dubai",
+        "country": "UAE",
+        "image": "/img/city12_Dubai.jpg",
+        "description": "Experience the luxurious lifestyle and futuristic skyscrapers of Dubai in the UAE."
+    },
+    {
+        "city": "Edinburgh",
+        "country": "United Kingdom",
+        "image": "/img/city13_Edinburgh.jpg",
+        "description": "Discover the historic charm and cultural heritage of Edinburgh in the United Kingdom."
+    },
+    {
+        "city": "Istanbul",
+        "country": "Turkey",
+        "image": "/img/city14_Istanbul.jpg",
+        "description": "Experience the unique blend of Eastern and Western cultures in the vibrant city of Istanbul."
+    },
+    {
+        "city": "Porto",
+        "country": "Portugal",
+        "image": "/img/city15_Porto.jpg",
+        "description": "Explore the picturesque streets and taste the world-famous port wine of Porto in Portugal."
+    }
+]
