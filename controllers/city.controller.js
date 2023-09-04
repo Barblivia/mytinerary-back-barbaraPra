@@ -5,7 +5,8 @@ const controller = {
         try {
             let queries = {};
             if (req.query.city) {
-                queries.city = new RegExp(`^${req.query.city}`, 'i');
+                const trimmedCity = req.query.city.trim();
+                queries.city = new RegExp(`^${trimmedCity}`, 'i');
             }
 
             const cities = await City.find(queries);
@@ -22,7 +23,7 @@ const controller = {
                 });
             }
         } catch (error) {
-            return res.status(500).json({
+            return res.status(500).json({ 
                 success: false,
                 message: 'Error: An error occurred while fetching cities'
             });
@@ -66,7 +67,7 @@ const controller = {
             });
         }
     },
-
+//findByIdAndUpdate
     updateCity: async(req, res) => {
         try {
             await City.updateOne({_id: req.params.id}, req.body)
@@ -83,6 +84,7 @@ const controller = {
             })
         }
     },
+    //findByIdAndDelete
     deleteCity: async(req, res) => {
         try {
             await City.deleteOne({_id: req.params.id})

@@ -1,0 +1,93 @@
+[
+    {
+      "title": "Varadero ",
+      "description": "Relax on the beautiful sandy beaches of Varadero.",
+      "imageUrl": "/img/itinBeachCubaVaradero.jpg",
+      "itinerary": "64f4fe51297154c00a3284ee"
+    },
+    {
+      "title": "Playa Girón",
+      "description": "Enjoy the picturesque Playa Girón on the Cuban coastline.",
+      "imageUrl": "/img/itinBeachCubaGiron.jpg",
+      "itinerary": "64f4fe51297154c00a3284ee"
+    },
+    {
+      "title": "Playa Ancón",
+      "description": "Experience the serene beauty of Playa Ancón's sandy shores.",
+      "imageUrl": "/img/itinBeachCubaAncon.jpg",
+      "itinerary": "64f4fe51297154c00a3284ee"
+    },
+    {
+      "title": "Havana Malecón",
+      "description": "Take a leisurely walk along the iconic Havana Malecón.",
+      "imageUrl": "/img/itinHistoricCubaOldCity.jpg",
+      "itinerary": "64f4fe51297154c00a3284ef"
+    },
+    {
+      "title": "Old Havana Cathedral",
+      "description": "Visit the stunning Old Havana Cathedral in the heart of the city.",
+      "imageUrl": "/img/itinHistoricCubaCathedral.jpg",
+      "itinerary": "64f4fe51297154c00a3284ef"
+    },
+    {
+      "title": "Cuba City Museum",
+      "description": "Explore the rich history and culture of Havana at the Cuba City Museum.",
+      "imageUrl": "/img/itinHistoricCubaCityMuseum.jpg",
+      "itinerary": "64f4fe51297154c00a3284ef"
+    },
+    {
+      "title": "Temple Bar Pub",
+      "description": "Experience the vibrant atmosphere of Temple Bar in Dublin.",
+      "imageUrl": "/img/itinPubsIrelandTempleBar.jpg",
+      "itinerary": "64f4fe51297154c00a3284f0"
+    },
+    {
+      "title": "Grain Pub",
+      "description": "Enjoy a cozy and traditional pub experience at the Grain Pub in Dublin.",
+      "imageUrl": "/img/itinPubsIrelandGrain.jpg",
+      "itinerary": "64f4fe51297154c00a3284f0"
+    },
+    {
+      "title": "The Lotts Bar",
+      "description": "Learn about the history of Guinness and enjoy panoramic views of Dublin.",
+      "imageUrl": "/img/itinPubsIrelandLottsBar.jpg",
+      "itinerary": "64f4fe51297154c00a3284f0"
+    },
+    {
+      "title": "Trinity College Library",
+      "description": "Explore the historic Trinity College Library and the Book of Kells.",
+      "imageUrl": "/img/itinHistLandmarkIrelandTrinityCollege.jpg",
+      "itinerary": "64f4fe51297154c00a3284f1"
+    },
+    {
+      "title": "Christ Church Cathedral",
+      "description": "Visit the historic Christ Church Cathedral in Dublin.",
+      "imageUrl": "/img/itinHistLandmarkIrelandChristChurchCathedral.jpg",
+      "itinerary": "64f4fe51297154c00a3284f1"
+    },
+    {
+      "title": "Molly Malone Statue",
+      "description": "See the famous Molly Malone Statue and learn about its folklore.",
+      "imageUrl": "/img/itinHistLandmarkIrelandMollyMaloneStatue.jpg",
+      "itinerary": "64f4fe51297154c00a3284f1"
+    },
+    {
+      "title": "Uffizi Gallery",
+      "description": "Marvel at the incredible art collection in the Uffizi Gallery.",
+      "imageUrl": "/img/itinMuseumFlorenceUffiziGallery.jpg",
+      "itinerary": "64f4fe51297154c00a3284f2"
+    },
+    {
+      "title": "Accademia Gallery",
+      "description": "Admire Michelangelo's David at the Accademia Gallery.",
+      "imageUrl": "/img/itinMuseumFlorenceAccademiaGallery.jpg",
+      "itinerary": "64f4fe51297154c00a3284f2"
+    },
+    {
+      "title": "Palazzo Vecchio",
+      "description": "Discover the history of Florence at the Palazzo Vecchio.",
+      "imageUrl": "/img/itinMuseumFlorencePalazzoVecchio.jpg",
+      "itinerary": "64f4fe51297154c00a3284f2"
+    }
+  ]
+  

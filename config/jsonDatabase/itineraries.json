@@ -1,0 +1,68 @@
+[
+    {
+      "title": "Beaches and Joy in Havana",
+      "author": {
+        "fullName": "John Whiskers",
+        "profilePhoto": "/img/author1.jpg"
+      },
+      "price": 3,
+      "duration": 6,
+      "likes": 5,
+      "hashTags": ["Beaches", "Joy"],
+      "comments": ["Great tour!", "I loved the beaches!"],
+      "cityRelated": "64e3de16e142ce9616d34946"
+    },
+    {
+      "title": "Historic Havana",
+      "author": {
+        "fullName": "Alice Paws",
+        "profilePhoto": "/img/author2.jpg"
+      },
+      "price": 4,
+      "duration": 8,
+      "likes": 9,
+      "hashTags": ["Historic", "Sightseeing"],
+      "comments": ["Fascinating history!", "I learned so much!"],
+      "cityRelated": "64e3de16e142ce9616d34946"
+    },
+    {
+      "title": "Traditional Pubs",
+      "author": {
+        "fullName": "Ethan Fangs",
+        "profilePhoto": "/img/author3.jpg"
+      },
+      "price": 2,
+      "duration": 4,
+      "likes": 8,
+      "hashTags": ["Pubs", "Nightlife"],
+      "comments": ["Great atmosphere!", "I enjoyed the music!"],
+      "cityRelated": "64e3de16e142ce9616d34945"
+    },
+    {
+      "title": "Historical Landmarks",
+      "author": {
+        "fullName": " Ethan Fangs ",
+        "profilePhoto": "/img/author3.jpg"
+      },
+      "price": 3,
+      "duration": 6,
+      "likes": 8,
+      "hashTags": ["Historical", "Sightseeing"],
+      "comments": ["Impressive architecture!", "NigA must-visit!"],
+       "cityRelated": "64e3de16e142ce9616d34945"
+    },
+    {
+      "title": "Florence Museums",
+      "author": {
+        "fullName": "Olivia Tails",
+        "profilePhoto": "/img/author5.jpg"
+      },
+      "price": 5,
+      "duration": 1,
+      "likes": 6,
+      "hashTags": ["Art", "Culture"],
+      "comments": ["Incredible art collection!", "I was amazed!"],       
+      "cityRelated": "64e3de16e142ce9616d34947"
+    }
+  ]
+  
