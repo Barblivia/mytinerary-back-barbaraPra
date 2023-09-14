@@ -13,7 +13,6 @@ router.post('/', createItinerary);
 router.put('/:id', updateItinerary);
 router.delete('/:id', deleteItinerary);
 
-// Ruta adicional para obtener detalles completos de un itinerario
 //router.get('/details/:id', getItineraryByIdWithDetails);
 
 export default router;

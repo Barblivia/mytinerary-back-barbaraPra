@@ -1,8 +1,19 @@
 import User from "../models/User.js"
 
 const controller = {
-    getUsers: async(req, res)=>{},
-    getUserById: async(req, res)=>{},
+    getUsers: async(req, res)=>{
+        try {
+            const users = await User.find();
+
+            return res.status(200).json({
+                success: true,
+                users
+            })
+
+        } catch (error) {
+            next(error)
+        }       
+    },
     createUser: async(req, res)=>{
         try {
             const newUser = await User.create(req.body); 
@@ -20,5 +31,7 @@ const controller = {
         }    
     },
     deleteUser: ()=>{},
+    updateUser: ()=>{},
+    getUserById: async(req, res)=>{},
 }
 export default controller;

@@ -67,7 +67,7 @@ const controller = {
             });
         }
     },
-//findByIdAndUpdate
+
     updateCity: async(req, res) => {
         try {
             await City.updateOne({_id: req.params.id}, req.body)
@@ -84,7 +84,7 @@ const controller = {
             })
         }
     },
-    //findByIdAndDelete
+    
     deleteCity: async(req, res) => {
         try {
             await City.deleteOne({_id: req.params.id})
