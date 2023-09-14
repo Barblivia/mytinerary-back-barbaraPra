@@ -39,7 +39,7 @@ const controller = {
                     image: user.image
                 },
                 process.env.SECRET_TOKEN,
-                { expiresIn: '15h' }
+                { expiresIn: '5d' }
             )
 
             user.password = null;
@@ -69,15 +69,14 @@ const controller = {
         const { token_id } = req.body;
 
         try {
-            // Verificar el token de GOOGLE que viene desde el front
-            const { name, email, image } = await verify(token_id);
+            // GOOGLE Token from front
+            const { name, email, image} = await verify(token_id);
 
-            let user = await User.findOne({ email }); // Pueder User o null
+            let user = await User.findOne({ email }); //  User o null
 
-            // Si el usuario no existe
+            // if no user, create it
             if (!user) {
-                // Tengo que crearlo
-                const data = {
+                    const data = {
                     name,
                     email,
                     image,
@@ -89,7 +88,7 @@ const controller = {
                 user = await User.create(data)
             }
 
-            // Si el usuario ya existe simplemente lo logueo
+            // if user exist, log in
             user.online = true;
             await user.save()
 
