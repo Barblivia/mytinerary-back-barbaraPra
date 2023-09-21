@@ -5,9 +5,9 @@ const collection = 'users';
 const Userschema = new Schema({
     email: { type: String, required: true, unique: true },
     name: { type: String, required: true},
-    password: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
     image: { type: String },
-    role: { type: String, default:'user'},
+    role: { type: String},
     country: { type: String },
     online: {type: Boolean, default: false},
     google:{type:Boolean, default: false},

@@ -7,6 +7,11 @@ import authRouter from './auth.router.js';
 
 const router = express.Router();
 
+router.get("/", (request, response) => {
+    console.log(request);
+    response.send("Hello World Test");
+});
+
 router.use('/users', userRouter);
 
 router.use('/auth', authRouter);

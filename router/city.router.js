@@ -13,10 +13,10 @@ router.get('/', getCities);
 
 router.get('/:id', getCityById);
 
-router.post('/', validator(citySchemaCreate), passport.authenticate('jwt', { session: false }), isAdmin, createCity);
+router.post('/', validator(citySchemaCreate), passport.authenticate('jwt', { session: false }),/* isAdmin,*/ createCity);
 
-router.put('/:id', passport.authenticate('jwt', { session: false }), isAdmin, updateCity)
+router.put('/:id', passport.authenticate('jwt', { session: false }), /*isAdmin,*/ updateCity)
 
-router.delete('/:id', passport.authenticate('jwt', { session: false }), isAdmin, deleteCity)
+router.delete('/:id', passport.authenticate('jwt', { session: false }), /*isAdmin,*/ deleteCity)
 
 export default router;

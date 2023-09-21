@@ -9,9 +9,6 @@ const { getUsers, createUser, updateUser, deleteUser }= userController;
 
 router.get('/', getUsers);
 
-//router.post('/', createUser);
-// user by id
-
 router.post('/', validator(userSignUp),createUser);
 
 router.put('/:id', updateUser);
@@ -19,3 +16,5 @@ router.put('/:id', updateUser);
 router.delete('/:id', deleteUser);
 
 export default router;
+//router.post('/', createUser);
+// user by id
